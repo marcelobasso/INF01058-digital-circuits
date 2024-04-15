@@ -1,0 +1,327 @@
+$comment
+	File created using the following command:
+		vcd file mux_2_1_8b.msim.vcd -direction
+$end
+$date
+	Sun Apr 14 13:23:09 2024
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module mux_2_1_8b_vlg_vec_tst $end
+$var reg 8 ! A [7:0] $end
+$var reg 8 " B [7:0] $end
+$var reg 1 # S0 $end
+$var wire 1 $ Z [7] $end
+$var wire 1 % Z [6] $end
+$var wire 1 & Z [5] $end
+$var wire 1 ' Z [4] $end
+$var wire 1 ( Z [3] $end
+$var wire 1 ) Z [2] $end
+$var wire 1 * Z [1] $end
+$var wire 1 + Z [0] $end
+$var wire 1 , sampler $end
+$scope module i1 $end
+$var wire 1 - gnd $end
+$var wire 1 . vcc $end
+$var wire 1 / unknown $end
+$var tri1 1 0 devclrn $end
+$var tri1 1 1 devpor $end
+$var tri1 1 2 devoe $end
+$var wire 1 3 Z[7]~output_o $end
+$var wire 1 4 Z[6]~output_o $end
+$var wire 1 5 Z[5]~output_o $end
+$var wire 1 6 Z[4]~output_o $end
+$var wire 1 7 Z[3]~output_o $end
+$var wire 1 8 Z[2]~output_o $end
+$var wire 1 9 Z[1]~output_o $end
+$var wire 1 : Z[0]~output_o $end
+$var wire 1 ; B[7]~input_o $end
+$var wire 1 < A[7]~input_o $end
+$var wire 1 = S0~input_o $end
+$var wire 1 > inst1|inst7|inst2~0_combout $end
+$var wire 1 ? A[6]~input_o $end
+$var wire 1 @ B[6]~input_o $end
+$var wire 1 A inst1|inst6|inst2~0_combout $end
+$var wire 1 B B[5]~input_o $end
+$var wire 1 C A[5]~input_o $end
+$var wire 1 D inst1|inst5|inst2~0_combout $end
+$var wire 1 E A[4]~input_o $end
+$var wire 1 F B[4]~input_o $end
+$var wire 1 G inst1|inst4|inst2~0_combout $end
+$var wire 1 H B[3]~input_o $end
+$var wire 1 I A[3]~input_o $end
+$var wire 1 J inst|inst7|inst2~0_combout $end
+$var wire 1 K B[2]~input_o $end
+$var wire 1 L A[2]~input_o $end
+$var wire 1 M inst|inst6|inst2~0_combout $end
+$var wire 1 N A[1]~input_o $end
+$var wire 1 O B[1]~input_o $end
+$var wire 1 P inst|inst5|inst2~0_combout $end
+$var wire 1 Q B[0]~input_o $end
+$var wire 1 R A[0]~input_o $end
+$var wire 1 S inst|inst4|inst2~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11111111 !
+b0 "
+0#
+x+
+x*
+x)
+x(
+x'
+x&
+x%
+x$
+x,
+0-
+1.
+x/
+10
+11
+12
+x3
+x4
+x5
+x6
+x7
+x8
+x9
+x:
+0;
+1<
+0=
+x>
+1?
+0@
+xA
+0B
+1C
+xD
+1E
+0F
+xG
+0H
+1I
+xJ
+0K
+1L
+xM
+1N
+0O
+xP
+0Q
+1R
+xS
+$end
+#3484
+1J
+#3486
+1M
+#3488
+1S
+#3489
+1>
+#3490
+1A
+#3491
+1D
+1G
+#3757
+1P
+#6030
+15
+1&
+#6117
+18
+1)
+#6135
+1:
+1+
+#6414
+19
+1*
+#6447
+17
+1(
+#6482
+16
+1'
+#6492
+13
+1$
+#7343
+14
+1%
+#100000
+b1111111 !
+b111111 !
+b11111 !
+b1111 !
+b1011 !
+b1010 !
+0,
+#100832
+0R
+#100842
+0?
+0C
+0E
+0L
+#100852
+0<
+#101680
+0>
+#103801
+0D
+#104000
+0A
+#104128
+0M
+#104231
+0G
+#104653
+0S
+#104668
+03
+0$
+#106358
+05
+0&
+#106765
+08
+0)
+#107193
+06
+0'
+#107295
+0:
+0+
+#107934
+04
+0%
+#210000
+b10 !
+b0 !
+b10000000 "
+b10100000 "
+b10110000 "
+b10111000 "
+b10111010 "
+b10111011 "
+1#
+1,
+#210670
+1B
+1H
+#210680
+1F
+#210686
+1=
+1O
+#210690
+1Q
+#210700
+1;
+#210832
+0I
+#210842
+0N
+#213857
+1>
+#213861
+1D
+1G
+#214078
+1S
+#216400
+15
+1&
+#216725
+1:
+1+
+#216852
+16
+1'
+#216860
+13
+1$
+#310000
+b10111111 "
+b111111 "
+b11111 "
+b1111 "
+b1101 "
+b1100 "
+0,
+#310690
+1K
+#310832
+0B
+#310842
+0F
+#310850
+0O
+#310852
+0Q
+#310862
+0;
+#311827
+0>
+#314072
+0G
+#314080
+1M
+#314159
+0D
+#314213
+0P
+#314538
+0S
+#314815
+03
+0$
+#316711
+18
+1)
+#316716
+05
+0&
+#316881
+09
+0*
+#317034
+06
+0'
+#317180
+0:
+0+
+#400000
+b100 "
+0#
+b0 "
+1,
+#400832
+0H
+#400850
+0=
+#400852
+0K
+#404241
+0J
+#404326
+0M
+#406963
+08
+0)
+#407205
+07
+0(
+#1000000

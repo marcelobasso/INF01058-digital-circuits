@@ -1,0 +1,3 @@
+Implementacao;Area (Pinos + Logic Elements);Atraso Critico (Slow mode, 85C)
+mux 2:1 8b;33;8.411 (B[0] - Z[6] - FF)
+decoder 4:16;36;8.825 (B[1] - S[7] - FR)

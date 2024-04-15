@@ -1,0 +1,157 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\CD\LAB3\decoder_4_16\simulation\qsim
+vdecoder_2_4
+Z1 ITo?QjhliR:i4mBGmnf>eZ0
+Z2 VTcfEEze03[iYmIPDz7NNP3
+Z3 dC:\CD\LAB3\decoder_4_16\simulation\qsim
+Z4 w1713153542
+Z5 8decoder_4_16.vo
+Z6 Fdecoder_4_16.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|decoder_4_16.vo|
+Z9 o-work work -O0
+Z10 !s100 XlZ85E_4mz::Liz>PTYb_0
+Z11 !s108 1713153543.294000
+Z12 !s107 decoder_4_16.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vdecoder_2_4_vlg_check_tst
+Z13 !s100 PcmS?<_J2b=78>I7gidQO0
+Z14 IA^0QHT6W7k7<7mT15C8ie1
+Z15 VmHU3HQU_0AZh4l4MA[jid2
+R3
+Z16 w1713153540
+Z17 8Waveform4.vwf.vt
+Z18 FWaveform4.vwf.vt
+L0 59
+R7
+r1
+31
+Z19 !s108 1713153543.373000
+Z20 !s107 Waveform4.vwf.vt|
+Z21 !s90 -work|work|Waveform4.vwf.vt|
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+vdecoder_2_4_vlg_sample_tst
+Z22 !s100 dX_6[8R82>GCPn@[W59Aj3
+Z23 IjUSK^QQnD`N0^T821^5oV1
+Z24 V9zJ9Pbiin<L`D]Xi@LCCC3
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+31
+R19
+R20
+R21
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+vdecoder_2_4_vlg_vec_tst
+Z25 !s100 g0aGcWh7bTbWgaNJNK_ae2
+Z26 IkMDD<[8F>^:QjhZ=0>QJf1
+Z27 Vd:NEOo4];f_I;dVI>bM;>2
+R3
+R16
+R17
+R18
+Z28 L0 207
+R7
+r1
+31
+R19
+R20
+R21
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+vdecoder_4_16
+Z29 IBIk5c22CX^RiE@l;GMTR41
+Z30 VzSz?VkmiGP0zG[SF>>AKN2
+R3
+Z31 w1713154092
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+!i10b 1
+Z32 !s100 XiF;R`z1?UzjM@^K3lGS00
+!s85 0
+Z33 !s108 1713154093.372000
+R12
+!s101 -O0
+vdecoder_4_16_vlg_check_tst
+!i10b 1
+Z34 !s100 eU:^7Wa@mMGBa@30YCL1l1
+Z35 Izo<k>2@GP;2fJ@[WS?^ZJ2
+Z36 Vk=Vic1X>W:]KBEW^ij[Dc1
+R3
+Z37 w1713154090
+Z38 8Waveform.vwf.vt
+Z39 FWaveform.vwf.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z40 !s108 1713154093.435000
+Z41 !s107 Waveform.vwf.vt|
+Z42 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R9
+vdecoder_4_16_vlg_sample_tst
+!i10b 1
+Z43 !s100 [:5of9jan4Yd2TB6ofDMU3
+Z44 IOUBV=bD]`cmcEgk@bW:`^2
+Z45 V7c;HkUK2=X_eXZG66hOCA2
+R3
+R37
+R38
+R39
+L0 29
+R7
+r1
+!s85 0
+31
+R40
+R41
+R42
+!s101 -O0
+R9
+vdecoder_4_16_vlg_vec_tst
+!i10b 1
+Z46 !s100 ^DlA3n=9T;n@eJkE@mj6I1
+Z47 I:4gh7lPCHi43LR3:b;63T0
+Z48 VPzT4mQiGQQUiRE[mLXR6X0
+R3
+R37
+R38
+R39
+Z49 L0 421
+R7
+r1
+!s85 0
+31
+R40
+R41
+R42
+!s101 -O0
+R9
