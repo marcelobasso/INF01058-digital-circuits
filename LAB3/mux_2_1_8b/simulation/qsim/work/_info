@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\CD\LAB3\mux_2_1_8b\simulation\qsim
+vmux_2_1_8b
+Z1 I6LdIbOY3O32Z9o:l?;]8^1
+Z2 V[z8Og]U=[UIY7`Q9be7?70
+Z3 dC:\CD\LAB3\mux_2_1_8b\simulation\qsim
+Z4 w1713111787
+Z5 8mux_2_1_8b.vo
+Z6 Fmux_2_1_8b.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|mux_2_1_8b.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 dEmO;OoQm3=QWhDZ5F`RF3
+!s85 0
+Z11 !s108 1713111788.672000
+Z12 !s107 mux_2_1_8b.vo|
+!s101 -O0
+vmux_2_1_8b_vlg_check_tst
+!i10b 1
+Z13 !s100 <C<Qn@Ti:3OW2lkcZ]F0o1
+Z14 I=8K2I=BjYbQ2KfPCGEloH0
+Z15 V3^NUXa^7We7>OT4JMKl`31
+R3
+Z16 w1713111786
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z19 !s108 1713111788.735000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R9
+vmux_2_1_8b_vlg_sample_tst
+!i10b 1
+Z22 !s100 Ac1<f[?9^n<ZM?VWeD9:12
+Z23 ID4[KhUnfW9>_@i7^BLVUA0
+Z24 VJ9D[=@FFPX<D63F4D?Mk_1
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vmux_2_1_8b_vlg_vec_tst
+!i10b 1
+!s100 n2=:2_LFmQc<zoD@4Qj@k0
+I>AQ=V:4YocEHOaZIUoHTF2
+Z25 V>ZhkiZ1oh:0JC@iYF[oXo3
+R3
+R16
+R17
+R18
+Z26 L0 281
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

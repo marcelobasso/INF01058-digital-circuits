@@ -1,0 +1,4 @@
+Implementacao;Area (Pinos + Logic Elements);Atraso Critico (Slow mode, 85C)
+4 bits;21;8.570 (B[0] - Cout - FF)
+8 bits;43;14.018 (B[0] - S[7] - FR)
+16 bits;87;19.555 (A[0] - S[15] - FR)
