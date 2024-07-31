@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 216 144 384 160)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A" (rect 5 0 13 12)(font "Arial" ))
+	(text "A" (rect 5 0 14 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 216 168 384 184)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "B" (rect 5 0 12 12)(font "Arial" ))
+	(text "B" (rect 5 0 13 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 216 192 384 208)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "C" (rect 5 0 13 12)(font "Arial" ))
+	(text "C" (rect 5 0 14 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 216 216 384 232)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "D" (rect 5 0 13 12)(font "Arial" ))
+	(text "D" (rect 5 0 14 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -87,7 +87,7 @@ applicable agreement for further details.
 	(input)
 	(rect 216 240 384 256)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "sel[1..0]" (rect 5 0 45 12)(font "Arial" ))
+	(text "sel[1..0]" (rect 5 0 46 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -116,7 +116,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 464 256 560 352)
+	(rect 472 256 568 352)
 	(text "mux21" (rect 5 0 42 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 80 25 92)(font "Arial" ))
 	(port
@@ -265,25 +265,25 @@ applicable agreement for further details.
 	(pt 576 440)
 )
 (connector
-	(text "A" (rect 416 272 424 284)(font "Arial" ))
-	(pt 464 288)
-	(pt 408 288)
+	(text "A" (rect 424 272 432 284)(font "Arial" ))
+	(pt 472 288)
+	(pt 416 288)
 )
 (connector
-	(text "B" (rect 416 288 423 300)(font "Arial" ))
-	(pt 464 304)
-	(pt 408 304)
+	(text "B" (rect 424 288 431 300)(font "Arial" ))
+	(pt 472 304)
+	(pt 416 304)
 )
 (connector
-	(text "sel[0]" (rect 410 304 437 316)(font "Arial" ))
-	(pt 464 320)
-	(pt 408 320)
+	(pt 648 288)
+	(pt 568 288)
+)
+(connector
+	(text "sel[0]" (rect 418 304 445 316)(font "Arial" ))
+	(pt 472 320)
+	(pt 416 320)
 )
 (connector
 	(pt 648 360)
-	(pt 648 288)
-)
-(connector
-	(pt 560 288)
 	(pt 648 288)
 )
