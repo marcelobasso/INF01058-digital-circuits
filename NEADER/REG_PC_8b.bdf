@@ -87,7 +87,7 @@ applicable agreement for further details.
 	(input)
 	(rect 256 192 424 208)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "inc_PC" (rect 5 0 41 12)(font "Arial" ))
+	(text "inc_PC" (rect 5 0 40 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -1709,10 +1709,6 @@ applicable agreement for further details.
 	(pt 40 512)
 )
 (connector
-	(pt 24 736)
-	(pt 80 736)
-)
-(connector
 	(pt 208 704)
 	(pt 152 704)
 )
@@ -1791,11 +1787,6 @@ applicable agreement for further details.
 	(pt -80 744)
 )
 (connector
-	(text "S[1]" (rect 40 512 60 524)(font "Arial" ))
-	(pt 40 528)
-	(pt 64 528)
-)
-(connector
 	(text "clk" (rect 552 864 566 876)(font "Arial" ))
 	(pt 616 880)
 	(pt 544 880)
@@ -1817,10 +1808,6 @@ applicable agreement for further details.
 	(text "E" (rect 328 880 335 892)(font "Arial" ))
 	(pt 408 896)
 	(pt 320 896)
-)
-(connector
-	(pt 24 912)
-	(pt 80 912)
 )
 (connector
 	(pt 208 880)
@@ -1868,11 +1855,6 @@ applicable agreement for further details.
 	(pt 752 864)
 )
 (connector
-	(text "S[1]" (rect -72 888 -52 900)(font "Arial" ))
-	(pt -40 904)
-	(pt -80 904)
-)
-(connector
 	(text "S[2]" (rect -72 904 -52 916)(font "Arial" ))
 	(pt -40 920)
 	(pt -80 920)
@@ -1895,10 +1877,6 @@ applicable agreement for further details.
 	(text "E" (rect 1240 296 1247 308)(font "Arial" ))
 	(pt 1320 312)
 	(pt 1232 312)
-)
-(connector
-	(pt 936 328)
-	(pt 992 328)
 )
 (connector
 	(pt 1120 296)
@@ -1955,10 +1933,6 @@ applicable agreement for further details.
 	(text "E" (rect 1240 472 1247 484)(font "Arial" ))
 	(pt 1320 488)
 	(pt 1232 488)
-)
-(connector
-	(pt 936 504)
-	(pt 992 504)
 )
 (connector
 	(pt 1120 472)
@@ -2037,10 +2011,6 @@ applicable agreement for further details.
 	(pt 1232 720)
 )
 (connector
-	(pt 936 736)
-	(pt 992 736)
-)
-(connector
 	(pt 1120 704)
 	(pt 1064 704)
 )
@@ -2095,10 +2065,6 @@ applicable agreement for further details.
 	(text "E" (rect 1240 880 1247 892)(font "Arial" ))
 	(pt 1320 896)
 	(pt 1232 896)
-)
-(connector
-	(pt 936 912)
-	(pt 992 912)
 )
 (connector
 	(pt 1120 880)
@@ -2158,19 +2124,9 @@ applicable agreement for further details.
 	(pt 1664 864)
 )
 (connector
-	(text "S[2]" (rect 840 304 860 316)(font "Arial" ))
-	(pt 872 320)
-	(pt 832 320)
-)
-(connector
 	(text "S[3]" (rect 840 320 860 332)(font "Arial" ))
 	(pt 872 336)
 	(pt 832 336)
-)
-(connector
-	(text "S[3]" (rect 840 480 860 492)(font "Arial" ))
-	(pt 872 496)
-	(pt 832 496)
 )
 (connector
 	(text "S[4]" (rect 840 496 860 508)(font "Arial" ))
@@ -2178,19 +2134,9 @@ applicable agreement for further details.
 	(pt 832 512)
 )
 (connector
-	(text "S[4]" (rect 840 712 860 724)(font "Arial" ))
-	(pt 872 728)
-	(pt 832 728)
-)
-(connector
 	(text "S[5]" (rect 840 728 860 740)(font "Arial" ))
 	(pt 872 744)
 	(pt 832 744)
-)
-(connector
-	(text "S[5]" (rect 840 888 860 900)(font "Arial" ))
-	(pt 872 904)
-	(pt 832 904)
 )
 (connector
 	(text "S[6]" (rect 840 904 860 916)(font "Arial" ))
@@ -2254,6 +2200,66 @@ applicable agreement for further details.
 	(text "S[7]" (rect 1600 848 1620 860)(font "Arial" ))
 	(pt 1592 864)
 	(pt 1624 864)
+)
+(connector
+	(text "S_01" (rect 37 720 61 732)(font "Arial" ))
+	(pt 24 736)
+	(pt 80 736)
+)
+(connector
+	(text "S_01" (rect -72 888 -48 900)(font "Arial" ))
+	(pt -40 904)
+	(pt -80 904)
+)
+(connector
+	(text "S_12" (rect 33 896 57 908)(font "Arial" ))
+	(pt 24 912)
+	(pt 80 912)
+)
+(connector
+	(text "S_12" (rect 840 304 864 316)(font "Arial" ))
+	(pt 872 320)
+	(pt 832 320)
+)
+(connector
+	(text "S_23" (rect 947 312 971 324)(font "Arial" ))
+	(pt 936 328)
+	(pt 992 328)
+)
+(connector
+	(text "S_23" (rect 840 480 864 492)(font "Arial" ))
+	(pt 872 496)
+	(pt 832 496)
+)
+(connector
+	(text "S_34" (rect 943 488 967 500)(font "Arial" ))
+	(pt 936 504)
+	(pt 992 504)
+)
+(connector
+	(text "S_34" (rect 840 712 864 724)(font "Arial" ))
+	(pt 872 728)
+	(pt 832 728)
+)
+(connector
+	(text "S_45" (rect 945 720 969 732)(font "Arial" ))
+	(pt 936 736)
+	(pt 992 736)
+)
+(connector
+	(text "S_45" (rect 832 888 856 900)(font "Arial" ))
+	(pt 872 904)
+	(pt 832 904)
+)
+(connector
+	(text "S_56" (rect 946 896 970 908)(font "Arial" ))
+	(pt 936 912)
+	(pt 992 912)
+)
+(connector
+	(text "S[0]" (rect 40 512 60 524)(font "Arial" ))
+	(pt 40 528)
+	(pt 64 528)
 )
 (junction (pt 712 288))
 (junction (pt 712 688))

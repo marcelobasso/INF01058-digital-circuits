@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 96 88 264 104)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "UAL_Y" (rect 5 0 41 12)(font "Arial" ))
+	(text "UAL_Y" (rect 5 0 40 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 96 120 264 136)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "UAL_ADD" (rect 5 0 56 12)(font "Arial" ))
+	(text "UAL_ADD" (rect 5 0 55 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 96 152 264 168)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "UAL_OR" (rect 5 0 49 12)(font "Arial" ))
+	(text "UAL_OR" (rect 5 0 48 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 96 184 264 200)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "UAL_AND" (rect 5 0 56 12)(font "Arial" ))
+	(text "UAL_AND" (rect 5 0 55 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -87,7 +87,7 @@ applicable agreement for further details.
 	(input)
 	(rect 96 216 264 232)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "UAL_NOT" (rect 5 0 55 12)(font "Arial" ))
+	(text "UAL_NOT" (rect 5 0 54 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -187,11 +187,6 @@ applicable agreement for further details.
 	(pt 568 160)
 )
 (connector
-	(text "UAL_AND" (rect 384 152 434 164)(font "Arial" ))
-	(pt 392 168)
-	(pt 440 168)
-)
-(connector
 	(text "UAL_ADD" (rect 384 136 434 148)(font "Arial" ))
 	(pt 392 152)
 	(pt 440 152)
@@ -221,4 +216,9 @@ applicable agreement for further details.
 	(pt 400 96)
 	(pt 320 96)
 	(bus)
+)
+(connector
+	(text "UAL_OR" (rect 384 152 427 164)(font "Arial" ))
+	(pt 392 168)
+	(pt 440 168)
 )

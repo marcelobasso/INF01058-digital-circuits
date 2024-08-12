@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 128 72 296 88)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "RI[3..0]" (rect 5 0 43 12)(font "Arial" ))
+	(text "RI[3..0]" (rect 5 0 42 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -969,29 +969,9 @@ applicable agreement for further details.
 	(pt 136 632)
 )
 (connector
-	(text "R[0]" (rect 144 680 165 692)(font "Arial" ))
-	(pt 184 696)
-	(pt 136 696)
-)
-(connector
-	(text "R[1]" (rect 144 696 165 708)(font "Arial" ))
-	(pt 184 712)
-	(pt 136 712)
-)
-(connector
 	(text "R3n" (rect 144 536 164 548)(font "Arial" ))
 	(pt 184 552)
 	(pt 136 552)
-)
-(connector
-	(text "R[0]" (rect 147 488 168 500)(font "Arial" ))
-	(pt 184 504)
-	(pt 136 504)
-)
-(connector
-	(text "R[1]" (rect 144 600 165 612)(font "Arial" ))
-	(pt 184 616)
-	(pt 136 616)
 )
 (connector
 	(text "R0n" (rect 144 584 164 596)(font "Arial" ))
@@ -1002,11 +982,6 @@ applicable agreement for further details.
 	(text "R3n" (rect 144 632 164 644)(font "Arial" ))
 	(pt 184 648)
 	(pt 136 648)
-)
-(connector
-	(text "R[2]" (rect 144 808 165 820)(font "Arial" ))
-	(pt 184 824)
-	(pt 136 824)
 )
 (connector
 	(text "R0n" (rect 144 776 164 788)(font "Arial" ))
@@ -1024,16 +999,6 @@ applicable agreement for further details.
 	(pt 136 840)
 )
 (connector
-	(text "R[0]" (rect 144 872 165 884)(font "Arial" ))
-	(pt 184 888)
-	(pt 136 888)
-)
-(connector
-	(text "R[2]" (rect 144 904 165 916)(font "Arial" ))
-	(pt 184 920)
-	(pt 136 920)
-)
-(connector
 	(text "R1n" (rect 144 888 164 900)(font "Arial" ))
 	(pt 184 904)
 	(pt 136 904)
@@ -1042,16 +1007,6 @@ applicable agreement for further details.
 	(text "R3n" (rect 144 920 164 932)(font "Arial" ))
 	(pt 184 936)
 	(pt 136 936)
-)
-(connector
-	(text "R[1]" (rect 368 408 389 420)(font "Arial" ))
-	(pt 408 424)
-	(pt 360 424)
-)
-(connector
-	(text "R[2]" (rect 368 424 389 436)(font "Arial" ))
-	(pt 408 440)
-	(pt 360 440)
 )
 (connector
 	(text "R0n" (rect 368 392 388 404)(font "Arial" ))
@@ -1079,39 +1034,14 @@ applicable agreement for further details.
 	(pt 360 536)
 )
 (connector
-	(text "R[3]" (rect 368 536 389 548)(font "Arial" ))
-	(pt 408 552)
-	(pt 360 552)
-)
-(connector
-	(text "R[3]" (rect 370 632 391 644)(font "Arial" ))
-	(pt 360 648)
-	(pt 408 648)
-)
-(connector
 	(text "R1n" (rect 373 600 393 612)(font "Arial" ))
 	(pt 408 616)
 	(pt 360 616)
 )
 (connector
-	(text "R[0]" (rect 368 584 389 596)(font "Arial" ))
-	(pt 408 600)
-	(pt 360 600)
-)
-(connector
 	(text "R2n" (rect 368 616 388 628)(font "Arial" ))
 	(pt 408 632)
 	(pt 360 632)
-)
-(connector
-	(text "R[3]" (rect 368 728 389 740)(font "Arial" ))
-	(pt 408 744)
-	(pt 360 744)
-)
-(connector
-	(text "R[1]" (rect 368 696 389 708)(font "Arial" ))
-	(pt 408 712)
-	(pt 360 712)
 )
 (connector
 	(text "R0n" (rect 368 680 388 692)(font "Arial" ))
@@ -1124,22 +1054,92 @@ applicable agreement for further details.
 	(pt 360 728)
 )
 (connector
-	(text "R[0]" (rect 368 776 389 788)(font "Arial" ))
+	(text "RI[0]" (rect 147 488 171 500)(font "Arial" ))
+	(pt 184 504)
+	(pt 136 504)
+)
+(connector
+	(text "RI[1]" (rect 144 600 168 612)(font "Arial" ))
+	(pt 184 616)
+	(pt 136 616)
+)
+(connector
+	(text "RI[0]" (rect 144 680 168 692)(font "Arial" ))
+	(pt 184 696)
+	(pt 136 696)
+)
+(connector
+	(text "RI[1]" (rect 144 696 168 708)(font "Arial" ))
+	(pt 184 712)
+	(pt 136 712)
+)
+(connector
+	(text "RI[1]" (rect 368 408 392 420)(font "Arial" ))
+	(pt 408 424)
+	(pt 360 424)
+)
+(connector
+	(text "RI[2]" (rect 368 424 392 436)(font "Arial" ))
+	(pt 408 440)
+	(pt 360 440)
+)
+(connector
+	(text "RI[3]" (rect 368 536 392 548)(font "Arial" ))
+	(pt 408 552)
+	(pt 360 552)
+)
+(connector
+	(text "RI[0]" (rect 368 584 392 596)(font "Arial" ))
+	(pt 408 600)
+	(pt 360 600)
+)
+(connector
+	(text "RI[1]" (rect 368 696 392 708)(font "Arial" ))
+	(pt 408 712)
+	(pt 360 712)
+)
+(connector
+	(text "RI[3]" (rect 368 728 392 740)(font "Arial" ))
+	(pt 408 744)
+	(pt 360 744)
+)
+(connector
+	(text "RI[0]" (rect 368 776 392 788)(font "Arial" ))
 	(pt 408 792)
 	(pt 360 792)
 )
 (connector
-	(text "R[1]" (rect 368 792 389 804)(font "Arial" ))
+	(text "RI[1]" (rect 368 792 392 804)(font "Arial" ))
 	(pt 408 808)
 	(pt 360 808)
 )
 (connector
-	(text "R[2]" (rect 368 808 389 820)(font "Arial" ))
+	(text "RI[2]" (rect 368 808 392 820)(font "Arial" ))
 	(pt 408 824)
 	(pt 360 824)
 )
 (connector
-	(text "R[3]" (rect 368 824 389 836)(font "Arial" ))
+	(text "RI[3]" (rect 368 824 392 836)(font "Arial" ))
 	(pt 408 840)
 	(pt 360 840)
+)
+(connector
+	(text "RI[2]" (rect 144 808 168 820)(font "Arial" ))
+	(pt 184 824)
+	(pt 136 824)
+)
+(connector
+	(text "RI[2]" (rect 144 904 168 916)(font "Arial" ))
+	(pt 184 920)
+	(pt 136 920)
+)
+(connector
+	(text "RI[0]" (rect 144 872 168 884)(font "Arial" ))
+	(pt 184 888)
+	(pt 136 888)
+)
+(connector
+	(text "RI[3]" (rect 370 632 394 644)(font "Arial" ))
+	(pt 360 648)
+	(pt 408 648)
 )
